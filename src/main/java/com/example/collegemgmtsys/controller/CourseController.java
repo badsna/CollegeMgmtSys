@@ -2,9 +2,7 @@ package com.example.collegemgmtsys.controller;
 
 import com.example.collegemgmtsys.model.Course;
 import com.example.collegemgmtsys.pojo.course.CourseDetailRequestPojo;
-import com.example.collegemgmtsys.pojo.course.CourseDetailResponsePojo;
 import com.example.collegemgmtsys.service.courseservice.CourseServiceImpl;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

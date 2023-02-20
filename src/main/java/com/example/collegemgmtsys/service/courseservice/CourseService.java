@@ -1,7 +1,6 @@
 package com.example.collegemgmtsys.service.courseservice;
 
 import com.example.collegemgmtsys.model.Course;
-import com.example.collegemgmtsys.model.Student;
 import com.example.collegemgmtsys.pojo.course.CourseDetailRequestPojo;
 
 import java.util.List;

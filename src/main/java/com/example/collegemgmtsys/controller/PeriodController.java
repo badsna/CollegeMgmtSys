@@ -1,9 +1,7 @@
 package com.example.collegemgmtsys.controller;
 
 import com.example.collegemgmtsys.model.Period;
-import com.example.collegemgmtsys.model.Teacher;
 import com.example.collegemgmtsys.pojo.period.PeriodDetailRequestPojo;
-import com.example.collegemgmtsys.pojo.teacher.TeacherDetailRequestPojo;
 import com.example.collegemgmtsys.service.periodservice.PeriodServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
