@@ -42,6 +42,8 @@ public class EnrollmentServiceImpl implements EnrollmentService{
 //        if (students.size() != enrollmentDetailRequestPojo.getStudent_id().size())
 //            throw new IllegalStateException("Students does not exist");
 //        enrollment.setStudent(students);
+
+        System.out.println("Hello Rujan");
         enrollmentRepo.save(enrollment);
     }
 }
