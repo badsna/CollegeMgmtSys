@@ -25,7 +25,7 @@ public class Teacher {
             generator ="teacher_sequence"
     )
     @Column(name = "teacher_id")
-    private Integer teacher_id;
+    private Long teacher_id;
 
     @Column(name = "teacher_name")
     private String teacher_name;

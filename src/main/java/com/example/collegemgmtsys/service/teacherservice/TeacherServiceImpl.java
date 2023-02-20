@@ -20,7 +20,7 @@ public class TeacherServiceImpl implements TeacherService {
     return teacherRepo.findAll();
     }
 
-    public Optional<Teacher> getTeacherById(Integer teacher_id) {
+    public Optional<Teacher> getTeacherById(Long teacher_id) {
         boolean exists=teacherRepo.existsById(teacher_id);
         if(!exists){
             throw new IllegalStateException(

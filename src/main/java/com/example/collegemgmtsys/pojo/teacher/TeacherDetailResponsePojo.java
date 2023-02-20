@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Service
 public class TeacherDetailResponsePojo {
-    private Integer teacher_id;
+    private Long teacher_id;
     private String teacher_name;
     private LocalDate dob;
     private Long phone;

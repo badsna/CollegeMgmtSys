@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Service
 public class TeacherDetailRequestPojo {
-    private Integer teacher_id;
+    private Long teacher_id;
     @NotNull
     private String teacher_name;
     private LocalDate dob;

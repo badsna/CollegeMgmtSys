@@ -8,6 +8,6 @@ import java.util.Optional;
 
 public interface TeacherService {
 List<Teacher> getTeachers();
-    public Optional<Teacher> getTeacherById(Integer teacher_id);
+    public Optional<Teacher> getTeacherById(Long teacher_id);
     public void saveTeacherDetails(TeacherDetailRequestPojo teacherDetailRequestPojo);
 }

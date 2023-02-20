@@ -29,7 +29,7 @@ private final TeacherServiceImpl teacherServiceImpl;
     }
 
     @GetMapping("{teacherId}")
-    public Optional<Teacher> getTeacherById(@PathVariable("TeacherId") Integer teacher_id){
+    public Optional<Teacher> getTeacherById(@PathVariable("TeacherId") Long teacher_id){
     return  teacherServiceImpl.getTeacherById(teacher_id);
     }
 

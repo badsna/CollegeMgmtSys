@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
@@ -38,4 +40,8 @@ public class Course {
 
     @Column(name="prerequisites")
     private String prerequisites;
+
+    //onecourse have many period
+    @OneToMany(mappedBy = "course")
+    private List<Period> period;
 }
